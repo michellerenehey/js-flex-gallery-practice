@@ -8,7 +8,6 @@ JS Day 5!
 
 # CSS
 - Styling for the parent element ("panels"): CONTAINER
-    - Transition: font seiz; flex; background;
     - display: flex; 
 - Styling for each child element (individual panel): ITEM & CONTAINER
     - each individual children ("panel1") has an image set as background-image) 
@@ -33,3 +32,8 @@ JS Day 5!
 
 # JS
 - grab the DOM elements (.panel) as querySelectorAll 
+
+- create a toggleOpen function that adds classList of "open" 
+- add event listener to each panel, on click run toggleOpen
+- create a function toggleActive that brings the words that are out of sight back in sight (that happens in CSS open-active)
+- add event listener to each panel, on transitionend run toggleActive
